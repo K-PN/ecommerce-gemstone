@@ -1,0 +1,11 @@
+- Can't use npm in vscode
+ + powershell -ExecutionPolicy Bypass -File script.ps1
+
+- Can't use sanity
+ + Set-ExecutionPolicy Unrestricted
+
+- Warning LF will be replaced by CRLF (github)
+ + git config --global core.autocrlf false
+
+
+https://youtu.be/4mOkFXyxfsU?t=2219
