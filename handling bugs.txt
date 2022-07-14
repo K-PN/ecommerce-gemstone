@@ -2,6 +2,8 @@
  + powershell -ExecutionPolicy Bypass -File script.ps1
 
 - Can't use sanity
+ + npm install -g @sanity/cli
+ + sanity init
  + Set-ExecutionPolicy Unrestricted
 
 - Warning LF will be replaced by CRLF (github)
