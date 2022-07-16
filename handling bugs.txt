@@ -1,11 +1,12 @@
 - Can't use npm in vscode
  + powershell -ExecutionPolicy Bypass -File script.ps1
 
+- Libraries needed to run npm run dev
+ + npm i next
+
 - Libraries needed to run sanity
- + npm i -g @sanity/cli
- + npm i -g @sanity/client
- + npm i -g @sanity/image-url
- + Set-ExecutionPolicy Unrestricted
+ + sanity login
+ + sanity install
 
 - Warning LF will be replaced by CRLF (github)
  + git config --global core.autocrlf false
