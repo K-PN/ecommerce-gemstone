@@ -5,7 +5,7 @@
  + npm i next
 
 - Libraries needed to run sanity
- + sanity login
+ + Set-ExecutionPolicy RemoteSigned
  + sanity install
 
 - Warning LF will be replaced by CRLF (github)
